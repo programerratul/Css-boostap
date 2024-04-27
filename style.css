@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background:linear-gradient(to right,#762692,#8F2AA6) ;
+}
+#navbarNav a{
+    color: whitesmoke;
+}
+.navbar-toggler{
+   background-color: white;
+   border: none;
+}
+
+/* banner section  */
+.banner{
+    background: linear-gradient(to right,#A117B8,#671789);
+}
+#text-heroarea{
+    color: whitesmoke;
+}
+#text-heroarea img{
+    width: 50px;
+}
+#text-heroarea a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* servises section  */
+#servises{
+    text-align: center;
+}
+#servises img{
+    width: 150px;
+}
+#servises .btn-primary{
+    background: linear-gradient(to right,#A117B8,#671789);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+}
+/* testmonial section  */
+.name{
+    font-weight: bold;
+}
+#testmonial img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#testmonial .vr{
+    background-color: #40104b;
+    width: 5px;
+}
+/* socal media  */
+.scorl-icon img{
+    width: 60px;
+    transition: 0.5s;
+}
+#socal-media a:hover img{
+    transform: translateY(-10px);
+}
+/* footer start hear  */
+.footer-area{
+    background: linear-gradient(to right,#A117B8,#671789);
+    color: white;
+}    
+.btn-danger{
+    background-color: brown;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 15px;
+}
+hr{
+    background-color: black;
+    height: 2px;
+    margin: auto;
+}
